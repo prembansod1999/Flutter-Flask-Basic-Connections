@@ -5,6 +5,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return json.dumps('Web App with Python Flask!')
+    return json.dumps('Flutter App with Python Flask!')
 
 app.run()
